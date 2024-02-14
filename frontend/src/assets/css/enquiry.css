@@ -1,0 +1,48 @@
+/* enquiries.css */
+
+.user-table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-left: 5%;
+}
+
+.user-table-head {
+    background-color: #000;
+    color: #fff;
+}
+
+.user-table-head th {
+    padding: 10px;
+    text-align: left;
+}
+
+.user-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-row:hover {
+    background-color: #ddd;
+}
+
+.user-row td {
+    padding: 10px;
+}
+
+.resolve-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.resolve-button:hover {
+    background-color: #333;
+}
+
+.user-list-title {
+    text-align: center; /* Center align the user list title */
+    margin-bottom: 20px; /* Add some space below the title */
+    color: black;
+}

@@ -1,0 +1,21 @@
+
+.navbar-link {
+    color: black; /* Change link color to black */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navbar-link:hover {
+    text-decoration: none; /* Remove underline when hovered */
+  }
+
+  .card-link {
+    color: black; /* Change link color to black */
+    text-decoration: none; /* Remove underline from links */
+  }
+
+  .card-link:hover {
+    text-decoration: none; /* Remove underline when hovered */
+    color: black;
+  }
+
+  

@@ -1,0 +1,55 @@
+/* black-white-theme.css */
+.bw-back{
+  background-image: url("https://img.freepik.com/premium-photo/banner-question-mark-sign-hand-question-icon-symbol-black-background-photo_526934-3371.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  
+}
+.bw-login {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    padding: 20px;
+    border: 1px solid #000; /* Black border */
+    border-radius: 5px;
+    width: 25%;
+    margin-left: 37%;
+    margin-right: 38%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    display: flex; /* Add flex display */
+    justify-content: center; /* Align items horizontally in the center */
+    flex-direction: column; /* Arrange items vertically */
+  }
+  
+  .bw-login h4 {
+    color: #000; /* Black heading */
+    text-align: center; /* Center align heading */
+  }
+  
+  .bw-login Form.ControlLabel {
+    color: #000; /* Black form label */
+    text-align: center; /* Center align form labels */
+  }
+  
+  .bw-login Form.Control {
+    border-color: #000; /* Black border for form controls */
+    width: 100%; /* Take up full width */
+  }
+  
+  .bw-login Button {
+    background-color: #000; /* Black button background */
+    color: #fff; /* White button text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 30%;
+    width: 40%; /* Take up full width */
+  }
+  
+  .bw-login Button:hover {
+    background-color: #a39f9f; /* Darker black on hover */
+  }

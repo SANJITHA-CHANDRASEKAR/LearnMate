@@ -1,0 +1,73 @@
+.user-details-container {
+    margin: 50px;
+    color: black;
+}
+
+.user-list-title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: black; /* Changed color to white */
+    padding: 10px; /* Added padding for better alignment */
+    text-align: center; /* Centered text */
+}
+
+.user-table-head{
+    color: white;
+   
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: larger;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align:center;
+}
+
+.user-id-header, .username-header, .email-header, .role-header, .delete-header {
+    background-color: black;
+    color: white;
+}
+
+.user-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-row:hover {
+    background-color: #ddd;
+}
+
+.delete-action button {
+    background-color: rgb(188, 17, 17);
+    color: white; /* Changed button color to black */
+    width: fit-content; /* Adjust button width to its content */
+    margin: auto; /* Center-align button */
+    display: block; /* Ensures button is centered */
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+
+
+.back-button {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    background-color: black;
+    color: white; /* Changed button color to black */
+    font-size: large;
+    width: fit-content; /* Adjust button width to its content */
+    margin: auto; /* Center-align button */
+    display: block; /* Ensures button is centered */
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  

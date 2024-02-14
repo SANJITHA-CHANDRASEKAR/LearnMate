@@ -1,0 +1,86 @@
+/* dashboard.css */
+
+.admin-side {
+    display: flex;
+  }
+  
+  .admin-dashboard {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-dashboard  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .progress-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .panel-container {
+    padding: 10px;
+    width: 220px;
+    margin: 20px;
+  }
+  
+  .panel-container h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .rs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .rs-table-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .rs-table-header {
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+  }
+  
+  .rs-list {
+    width: 100%;
+  }
+  
+  .rs-list-item {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .rs-progress-circle {
+    margin: 0 auto;
+  }
+  
+  /* dashboard.css */
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .info {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
